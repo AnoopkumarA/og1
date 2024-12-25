@@ -39,7 +39,7 @@ export function UserNav() {
 			<Button 
 				variant="outline" 
 				onClick={handleGitHubSignIn}
-				className="flex items-center gap-2"
+				className="px-3 py-1 sm:px-2 sm:py-1 md:px-3 md:py-1 lg:px-4 lg:py-2 bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white rounded-full flex items-center gap-2"
 			>
 				<GithubIcon className="h-5 w-5" />
 				Sign in with GitHub
