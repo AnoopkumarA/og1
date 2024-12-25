@@ -130,12 +130,14 @@ const Index = () => {
             </Link>
             <div className="flex items-center gap-4">
               <AuthButton />
-              <Button
-                onClick={() => setShowAddProjectDialog(true)}
-                className="text-xs sm:text-sm px-2 py-1 sm:px-3 sm:py-2 bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600"
-              >
-                Add Project
-              </Button>
+              <div className="hidden sm:block">
+                <Button
+                  onClick={() => setShowAddProjectDialog(true)}
+                  className="text-xs sm:text-sm px-2 py-1 sm:px-3 sm:py-2 bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600"
+                >
+                  Add Project
+                </Button>
+              </div>
             </div>
           </div>
         </div>
